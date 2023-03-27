@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Sample Master Test Suite">
+
+    <!-- Staging or production run-->
+    <parameter name="environment" value="production"/>
+    <!--parameter name="environment" value="staging"/-->
+
+    <suite-files>
+        <suite-file path="UserRolesAndDeviceFlowTests.xml"/>
+    </suite-files>
+    
+</suite>

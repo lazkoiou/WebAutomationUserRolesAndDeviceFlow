@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="User Roles And Device Flow Tests Suite">
+
+    <!-- Staging or production run-->
+    <parameter name="environment" value="production"/>
+    <!--parameter name="environment" value="staging"/-->
+
+    <test name="User Roles And Device Flow Tests">
+        <packages>
+            <package name="com.smoke.tests"/>
+        </packages>
+    </test>
+</suite>
